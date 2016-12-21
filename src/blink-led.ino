@@ -19,5 +19,8 @@ void loop() {
   digitalWrite(led2, LOW);
 
   delay(200);
+
+  //Particle.publish("foo", "bar");
+
 }
 
